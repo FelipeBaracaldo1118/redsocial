@@ -8,34 +8,21 @@
     background-color: #4F8C6F;
 }
 
-#main{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #4F8C6F;
-}
 
 section, h2, form{
     background-color: WHITE;
     
 }
-#bodypost{
-   
-    display: none;
-    max-width: 100%;
-    background-color: WHITE    ;
-     border: solid 1px #87BF34;
-     box-shadow: 0px 2px 6px;
-     text-align: center;
-     margin: 20px auto;
-     padding: 20px 20px;
-     border-radius: 2em;
-     transition: all .2s ease;
+
+
+
+
+.editForm{
+    background-color: white;
 }
 
-
-
 #body{
-    max-width: 100%;
+    max-width: 50%;
     background-color: WHITE    ;
      border: solid 1px #87BF34;
      box-shadow: 0px 2px 6px;

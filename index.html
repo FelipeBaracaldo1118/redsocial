@@ -11,32 +11,29 @@
 </head>
 <body>
     <header><h1>SOCIAL APP</h1></header>
-    <section id="main">
+    
 
   
     <section id="body">
 
         
-
-        <button onclick="getData()">show posts</button>
-
-        
-
         <h2> WHAT ARE YOU THINKING ?</h2>
-        <form id="postForm" onsubmit="postData()">
+        <form id="postForm" onsubmit="event.preventDefault(); postData()">
             <label for="title">Title</label>
-            <input type="text" id="title" required autocomplete="off">
+            <input type="text" id="postTitle" required autocomplete="off">
             <label for="postBody"></label>
             <textarea name="" id="postBody"></textarea>
             <button type="submit">SEND</button>
         </form>
-    </section>
-    <section id="bodypost">
+
         <ul id="postList">
 
         </ul>
+        
+
     </section>
-    </section>
+    
+
     <script src="assets/script.js"></script>
 </body>
 </html>
